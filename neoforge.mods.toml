@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[1,)"
+license="MIT"
+issueTrackerURL=""
+
+[[mods]]
+modId="realistictrees"
+version="0.2.0"
+displayName="Realistic Trees (GLB Wind)"
+description='''Заменяет ванильные деревья на реалистичные модели с ветром. Сила наклона и скорость ветра настраиваются в меню Mods -> Realistic Trees -> Config.'''
+authors="you"
+
+[[dependencies.realistictrees]]
+    modId="neoforge"
+    type="required"
+    versionRange="[21.1,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.realistictrees]]
+    modId="minecraft"
+    type="required"
+    versionRange="[1.21.1,1.22)"
+    ordering="NONE"
+    side="BOTH"
